@@ -47,12 +47,15 @@
       width: 50%;
     }
 
-    // @include respond(phone) {
-    //   display: flex;
-    //   flex-direction: column;
-    //   width: 100%;
-    //   margin-top: 3rem;
-    // }
+    @include respond(tab-port) {
+      width: 39%;
+    }
+
+    @include respond(phone) {
+      width: 45%;
+    }
+
+    
   }
 
   &__right {

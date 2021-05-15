@@ -757,6 +757,16 @@ body {
     width: 50%;
   }
 }
+@media (max-width: 56.25em) {
+  .popup__left {
+    width: 39%;
+  }
+}
+@media (max-width: 37.5em) {
+  .popup__left {
+    width: 45%;
+  }
+}
 .popup__right {
   width: 66.6666667%;
   display: table-cell;

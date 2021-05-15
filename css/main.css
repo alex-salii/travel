@@ -743,6 +743,12 @@ body {
     justify-content: center;
     align-items: center;
     width: 90%;
+    position: fixed;
+  }
+}
+@media (max-width: 37.5em) {
+  .popup__content {
+    height: 5.4rem;
   }
 }
 .popup__left {
